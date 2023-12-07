@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- Navbar, logo and search -->
+    <header>
+        <section class="navbar">
+            <div class="logo"></div>
+            <div class="nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="menu.html">Menu</a>
+                <a href="contact.html">Contact</a>
+                <a href="loaction.html">Location</a>
+            </div>
+            <div class="search"><button onclick="window.location.href = 'reservation.html'">BOOK NOW</button></a>
+        </section>
+    </header>
+
+    <!-- Body -->
+
+    <main class="page-6">
+        <h1>BOOK A TABLE</h1>
+        <form action="/action_page.php" target="_blank">
+            <p><input class="book-a-table" type="text" placeholder="Name" required name="Name"></p>
+            <p><input class="book-a-table" type="number" placeholder="How many people" required name="People"></p>
+            <p><input class="book-a-table" type="datetime-local" placeholder="Date and time" required name="date" value=""></p>
+            <p><input class="book-a-table" type="text" placeholder="Special requirements" required name="Message"></p>
+            <p><button class="book-a-table-button" type="submit">FIND TABLE</button></p>
+          </form>
+
+
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="logo2"></div>
+        <div class="copyright">
+            <p>Kabin@Ghale.com</p>
+            <p>Copyright@2023</p>
+        </div>
+        <div class="pages">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="reservation.html">Find a Table</a>
+        <a href="loaction.html">Location</a>
+    </div>   
+        
+    </footer>
+</body>
+</html>
